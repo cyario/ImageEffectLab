@@ -21,3 +21,9 @@ This is my unity shader experimental project
 
 ## SandStorm
 ![SandStorm](https://raw.githubusercontent.com/wiki/cyario/ImageEffectLab/images/SandStorm.gif)
+
+## Monochrome
+![SandStorm](https://raw.githubusercontent.com/wiki/cyario/ImageEffectLab/images/Monochrome.gif)
+
+## Sepia
+![SandStorm](https://raw.githubusercontent.com/wiki/cyario/ImageEffectLab/images/Sepia.gif)
