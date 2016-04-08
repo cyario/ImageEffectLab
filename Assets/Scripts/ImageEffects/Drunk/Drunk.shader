@@ -39,16 +39,6 @@
 
 			sampler2D _MainTex;
 
-			float rand(float2 co)
-			{
-				return frac(sin(dot(co.xy ,float2(12.9898,78.233))) * 43758.5453);
-			}
-
-			float3 mix(float3 x, float3 y, float z )
-			{
-				return (x * (1-z)) + (y*z);
-			}
-
 			float4 frag (v2f i) : SV_Target
 			{
 				float2 pos = i.uv;
