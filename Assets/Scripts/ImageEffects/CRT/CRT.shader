@@ -1,4 +1,4 @@
-﻿Shader "Custom/Division" {
+﻿Shader "Custom/CRT" {
 
 	Properties
 	{
