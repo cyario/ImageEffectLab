@@ -43,7 +43,7 @@
 			{
 				float2 pos = i.uv;
 
-				float sq = sin( _Time ) * 0.05;
+				float sq = sin( _Time.y ) * 0.05;
 				float4 tc = tex2D(_MainTex, i.uv);
 				float4 tl = tex2D(_MainTex, i.uv - float2(sin(sq),0.));
 				float4 tR = tex2D(_MainTex, i.uv + float2(sin(sq),0.));
